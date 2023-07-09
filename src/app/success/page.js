@@ -12,7 +12,7 @@ export default function Success() {
         <h2>Your data has not been recorded but you are a rockstar!</h2>
         <p> Thank you for clicking through this far!</p>
         </section>
-        <Link href='/'><img src="/kitty.jpg"></img></Link>
+        
         
     </main>
     </>
