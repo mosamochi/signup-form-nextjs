@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export'
+    output: 'export',
+    basePath: '/signup-form-nextjs'
 }
 
 module.exports = nextConfig

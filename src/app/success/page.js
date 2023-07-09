@@ -1,5 +1,6 @@
 import "./success-styles.css"
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Success() {
 
@@ -13,7 +14,7 @@ export default function Success() {
         <p> Thank you for clicking through this far!</p>
         </section>
         
-        
+        <Link href='/'><Image className='image-success' src="/kitty.jpg"></Image></Link>
     </main>
     </>
    
