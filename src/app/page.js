@@ -19,7 +19,7 @@ export default function Home() {
   but understanding how developers think is invaluable. </p>
       </div>
       <div id='signup-block'>
-        <Link href="/plan-info"><Button text={[<span className='bold-text'>Try it free 7 days </span>, ' then $20/mo. thereafter']} color='purple' handleClick={openLink} type='button'></Button> </Link>
+        <Link href="/plan-info"><Button text='Try it free 7 days then $20/mo. thereafter' color='purple' handleClick={openLink} type='button'></Button> </Link>
       
         <SignUpForm className="signup-form-block" ></SignUpForm>
       </div>
